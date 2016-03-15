@@ -54,7 +54,7 @@ class listener(StreamListener):
         print "Error",status
 
 
-# This is a function that does the scoring after every thirty seconds.
+# This is a function that does the scoring after every thirty seconds and printing after every sixty seconds.
 # This function runs in parallel with the stream in a different thread.
 
 def scorer():  
