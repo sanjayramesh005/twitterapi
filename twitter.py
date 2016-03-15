@@ -1,14 +1,12 @@
 # A python2 script for processing twitter data
+# I haven't taken care of eliminating the urls, twitter handles etc. from the list of words
 
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 from requests.packages.urllib3.exceptions import ProtocolError
 import json
-import re
 import threading
-import time
-from datetime import datetime as dt
 import time
 
 in_size = raw_input("Input the cache size: ")
