@@ -85,10 +85,6 @@ def scorer():
 if __name__=='__main__':
 
     # The stream runs in the main thread. The scorer runs in a separate thread.
-    access_token = "705794186281242625-BHrd1YCM33bUCSsOMQRZpZ4BIeIGP8b"
-    access_token_secret = "lS5XKMxupo9Ml2bYiCborhh76sobS1WjmtqMQYNV71QC5"
-    consumer_key = "4Hw7IsUQLoGRvfhZPCOO9bguB"
-    consumer_secret = "Mu7scUC4hGKx473uxfnan4joyN3SggZqcg9Ps99KWW9V3dUMEi"
     
     l = listener()
     auth = OAuthHandler(consumer_key, consumer_secret)
