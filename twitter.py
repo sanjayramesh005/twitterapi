@@ -51,7 +51,7 @@ class listener(StreamListener):
         return True
 
     def on_error(self, status):
-        print status
+        print "Error",status
 
 
 # This is a function that does the scoring after every thirty seconds.
