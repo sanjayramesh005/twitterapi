@@ -62,7 +62,7 @@ def scorer():
     while(True):
         lasttime = time.time()
         for i in cache:
-            if(lasttime-cache[i][1]>5):
+            if(lasttime-cache[i][1]>60):
                 cache[i][0]=cache[i][0]-1
 
         for i, v in cache.items():
